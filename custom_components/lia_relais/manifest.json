@@ -1,0 +1,14 @@
+{
+  "domain": "lia_relais",
+  "name": "Lia — accès de dehors",
+  "codeowners": ["@Aziz5706"],
+  "config_flow": true,
+  "dependencies": ["http"],
+  "documentation": "https://liahome.app",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://liahome.app",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.3.0"
+}

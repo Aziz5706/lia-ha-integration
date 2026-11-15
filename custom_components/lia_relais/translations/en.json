@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lia — remote access",
+        "description": "The Lia app fills in these fields by itself. For a test, enter the relay address.",
+        "data": {
+          "relais": "Relay address"
+        }
+      },
+      "jeton": {
+        "title": "Lia — remote access",
+        "description": "Fingerprint of this home's key: {empreinte}. Enter the home token.",
+        "data": {
+          "jeton": "Home token"
+        }
+      },
+      "reconfigure": {
+        "title": "Lia — remote access",
+        "description": "Change the relay or the token. The home key does not change.",
+        "data": {
+          "relais": "Relay address",
+          "jeton": "Home token"
+        }
+      }
+    },
+    "error": {
+      "relais_illisible": "This is not a relay address (wss://…).",
+      "relais_sans_cadenas": "The relay must use wss://.",
+      "jeton_illisible": "This is not a token."
+    },
+    "abort": {
+      "single_instance_allowed": "Lia is already set up.",
+      "reconfigure_successful": "Saved."
+    }
+  }
+}
